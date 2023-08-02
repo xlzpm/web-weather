@@ -5,6 +5,6 @@ type WeatherReports struct {
 }
 
 type CityReport struct {
-	Desсription string `json:"description"`
-	Temperature string `json:"temperature"`
+	Desсription string  `json:"description"`
+	Temperature float64 `json:"temperature"`
 }
